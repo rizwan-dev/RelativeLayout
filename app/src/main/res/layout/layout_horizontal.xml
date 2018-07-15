@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lblName"
+        android:layout_toRightOf="@+id/lblName"
+        android:hint="Enter your name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblAddress"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblName"
+        android:layout_marginTop="40dp"
+        android:text="Address"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lblAddress"
+        android:layout_toRightOf="@+id/lblAddress"
+        android:hint="Enter your address"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddress"
+        android:layout_marginTop="40dp"
+        android:text="Phone"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lblPhone"
+        android:layout_toRightOf="@+id/lblPhone"
+        android:hint="Enter your phone"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Save" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="btn1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="btn2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="btn3" />
+</RelativeLayout>
